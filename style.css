@@ -1,0 +1,316 @@
+/* Goole fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+/* variables */
+:root{
+    --second-color:#192f6a;
+  /* --main-color:#2288ff;
+   --text-color:#314862;
+   --bg-color:#fff;  */
+
+   /* box shadow */
+   --box-shadow: black;
+   }
+   img{
+   width: 100% 
+  }
+   body{
+    color: #314862;
+   }
+   section {
+    padding: 30px ;
+
+   }
+   .container{
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+   
+   }
+   header{
+    display: block;
+    width: 100%;
+    background: white;
+    position:fixed;
+    top: 0;
+    left: 10px;
+    
+   }
+   .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+    
+   }
+   .logo{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #314862;
+    
+    }
+    .logo .bx {
+        font-size: 35px;
+        color: #314862;
+    }
+    .navbar{
+        display: flex;
+        
+    }
+    .navbar a {
+        padding: 8px 17px;
+        color:#314862;
+        font-size: 15px;
+        
+        font-weight: 500;
+    }
+    .navbar a:hover {
+        color: #2288ff;
+    }
+    #menu-icon {
+        font-size: 35px;
+        cursor: pointer;
+        display: none;
+    }
+    #menu {
+        display: none;
+    }
+    .btn{
+        padding: 8px 22px;
+        background: #2288ff;
+        color: white;
+        border-radius: 15px;
+        
+    }
+    .btn:hover {
+        background: #3492fd;
+    }
+    /* home */
+    .home {
+        margin-top: 65px;
+        background: url(https://tse2.mm.bing.net/th?id=OIP.VjiidhqCrZHJ_FOZ45pugAHaDL&pid=Api&P=0);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        align-items: center;
+    }
+    .home-text{
+        padding-left: 35px;
+    }
+    .home-text h1{
+        color: white;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .about {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(5px, auto));
+        gap: 20px;
+    }
+    .about-img img{
+        border-radius: 45px;
+    }
+    .about-text span{
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #3492fd; 
+    }
+    .about-text h2{
+        font-size: 20px;
+    }
+    .about-text p{
+        font-size: 13px;
+        margin: 10px;
+    }
+    .sales{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10px, auto));
+        gap: 30px;
+    } 
+    .sales .box{
+        padding: 20px;
+        background: #3492fd; ;
+        box-shadow: white;
+        border-radius: 40px;
+        text-align: center; 
+
+    }
+    .sales .box :hover{
+        background: #3492fd;
+        color: white;
+        transition: 0.5s all linear;
+    }
+    .sales .box .bx{
+        padding: 10px;
+        border-radius: 50%;
+        background-color: white;
+        color: #3492fd;
+        font-size: 20px;
+    }
+    .sales .box h3{
+        font-size: 18px;
+        margin: 10px;
+    }
+    .sales .box p{
+        font-size: 16px;
+    }
+    /* properties */
+    .heading{
+        text-align: center;
+        
+    }
+    .heading span{
+        font-weight: 500;
+        color: #2288ff;
+    }
+    .heading h2{
+        font-size: 18px;
+    }
+    .heading p{
+        font-size: 16px;
+    }
+    .properties{
+        background: white;
+        border-radius: 5px;
+    }
+    .properties-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+        gap: 30px;
+        padding:  50px;
+    }
+    /*.properties-container .box{
+         background: white;
+         padding: 10px;
+         border-radius: 10px;
+         box-shadow: black;
+    } 
+    .properties-container .box:hover{
+        transform: translateY(-10px);
+        transition: 0.5s;
+    } 
+    .properties-container .box img{
+        border-radius: 10px;
+        height: 220px;
+        object-fit: cover;
+        object-position: center; 
+    } */
+    .properties-container .box h3{
+        font-size: 16px;
+        font-weight: 600;
+        
+    }
+    .properties-container .box .content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .properties-container .box .content .text h3{
+        font-weight: 500;
+    }
+    .properties-container .box .content .text p{
+        font-size: 5px;
+    }
+    .newslatter{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 5px;
+        justify-content: center;
+        text-align: center;
+    }
+    .newslatter #email-box{
+        margin-top: 15px;
+
+    }
+    .footer{
+        background: black;
+        color: white;
+        
+
+    }
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+        gap: 30px;
+    }
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright{
+        font-size: 10px;
+        padding: 50px;
+        text-align: center;
+        color: white;
+        background: black;
+    }
+    /* log in */
+    .login{
+        display: grid;
+        margin-top: 150px;
+        grid-template-columns: 0.4fr 1fr;
+        align-items: center;
+        min-height: 100px;
+        
+    }
+    .login-container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .login-container h2{
+        font-size: 25px;
+    }
+    .login-container p{
+        font-size: 14px;
+    }
+    .login-container form{
+        display: flex;
+        flex-direction: column;
+    }
+    .login-container form span{
+        font-size: 15px;
+        color: #8a8a8a;
+        margin-bottom: 5px;
+    }
+    .login-container form input{
+        border: 1px solid #8a8a8a;
+        outline: none;
+        padding: 5px;
+        margin-bottom: 15px;
+        background: white;
+    }
+    .login-container form .button{
+        background:  #2288ff;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .login-container form .button:hover{
+        background: #3492fd;
+    }
+    .login-container form a{
+        font-size: 12px;
+        text-align: right;
+
+    }
+    .login-container .btn{
+        border-radius: 0px;
+        text-align: center;
+    }
+
+
